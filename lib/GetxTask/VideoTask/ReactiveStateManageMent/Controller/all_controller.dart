@@ -1285,7 +1285,7 @@ class SignatureControllerDemo extends GetxController {
           onColorChanged: (value) {
             padColor.value = value;
           },
-          showLabel: true,
+          // showLabel: true,
           pickerAreaHeightPercent: .8,
         ),
       ),
@@ -1301,7 +1301,7 @@ class SignatureControllerDemo extends GetxController {
             penColor.value = color;
             initializeSignatureController();
           },
-          showLabel: true,
+          // showLabel: true,
           pickerAreaHeightPercent: .8,
         ),
       ),
