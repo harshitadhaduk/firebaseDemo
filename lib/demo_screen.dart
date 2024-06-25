@@ -46,7 +46,7 @@ class _DemoScreenState extends State<DemoScreen> {
             GetBuilder<CounterController>(
               builder: (controller) => ElevatedButton(
                 onPressed: () {
-                  //  controller.increment();
+                  controller.increment();
                 },
                 child: Text('${controller.count}'),
               ),
