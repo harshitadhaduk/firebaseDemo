@@ -974,6 +974,7 @@ class AutoCompleteController extends GetxController {
   @override
   void onInit() {
     super.onInit();
+
     countryName = <CountryAutoComplete>[
       CountryAutoComplete(name: "India"),
       CountryAutoComplete(name: "Australia"),
