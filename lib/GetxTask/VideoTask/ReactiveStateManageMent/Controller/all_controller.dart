@@ -1319,7 +1319,6 @@ class SignatureControllerDemo extends GetxController {
           penStrokeWidth: 5,
           exportBackgroundColor: padColor.value,
           points: signatureController.points);
-      final signature = await exportSignature.toPngBytes();
       exportSignature.dispose();
       // final result = await ImageGallerySaver.saveIamge(signature!,
       //     name: "MySignature.png");
