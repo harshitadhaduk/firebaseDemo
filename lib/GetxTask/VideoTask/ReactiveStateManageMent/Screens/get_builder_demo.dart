@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import '../Controller/all_controller.dart';
 
 class GetBuilderDemo extends StatefulWidget {

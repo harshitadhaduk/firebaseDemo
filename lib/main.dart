@@ -26,6 +26,7 @@ import 'package:firebase_demo/GetxTask/VideoTask/ReactiveStateManageMent/Screens
 import 'package:firebase_demo/GetxTask/VideoTask/ReactiveStateManageMent/Screens/dismiss_keyboard_screen.dart';
 import 'package:firebase_demo/GetxTask/VideoTask/ReactiveStateManageMent/Screens/double_tap_to_close_app.dart';
 import 'package:firebase_demo/GetxTask/VideoTask/ReactiveStateManageMent/Screens/draggable_fab_screen.dart';
+import 'package:firebase_demo/GetxTask/VideoTask/ReactiveStateManageMent/Screens/draggable_scroll_screen.dart';
 import 'package:firebase_demo/GetxTask/VideoTask/ReactiveStateManageMent/Screens/elegant_button_screen.dart';
 import 'package:firebase_demo/GetxTask/VideoTask/ReactiveStateManageMent/Screens/emoji_picker_screen.dart';
 import 'package:firebase_demo/GetxTask/VideoTask/ReactiveStateManageMent/Screens/expansion_button_screen.dart';
@@ -83,7 +84,6 @@ import 'controller/task_text_controller.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
   await Firebase.initializeApp();
   // GoogleHomeBinding().dependencies();
   await GetStorage.init();
@@ -170,7 +170,7 @@ class MyApp extends StatelessWidget {
       // darkTheme: AppThemes.darkThemeData,
       // defaultTransition: Transition.leftToRightWithFade,
       debugShowCheckedModeBanner: false,
-      home: FingerPrintScreen(),
+      home: ImageScreen(),
 
       //translation
       // locale: Locale("en", "US"),

@@ -58,12 +58,13 @@ class DraggableScrollScreen extends GetView<DraggableScrollController> {
                           title: Text(
                             "Title Position is $index",
                             style: TextStyle(
-                                color: controller.selected[index]
-                                    ? Colors.white
-                                    : Colors.black),
+                              color: controller.selected[index]
+                                  ? Colors.pink
+                                  : Colors.black,
+                            ),
                           ),
                           selectedTileColor:
-                              controller.selected[index] ? Colors.blue : null,
+                              controller.selected[index] ? Colors.pink : null,
                           selected: controller.selected[index],
                           onTap: () => controller.selected[index] =
                               !controller.selected[index],

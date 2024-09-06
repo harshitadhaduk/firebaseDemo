@@ -94,12 +94,12 @@ class FailureView extends StatelessWidget {
             const SizedBox(height: 4),
             Text(
               title,
-              style: Theme.of(context).textTheme.bodyText1,
+              style: Theme.of(context).textTheme.bodySmall,
             ),
             const SizedBox(height: 2),
             Text(
               msg,
-              style: Theme.of(context).textTheme.bodyText2,
+              style: Theme.of(context).textTheme.bodyMedium,
             ),
             const SizedBox(height: 2),
             ElevatedButton(

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:video_trimmer/video_trimmer.dart';
+// import 'package:video_trimmer/video_trimmer.dart';
 
 import '../Controller/all_controller.dart';
 

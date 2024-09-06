@@ -1,8 +1,6 @@
-import 'package:firebase_demo/GetxTask/VideoTask/ReactiveStateManageMent/Screens/GetxBinding/getx_binding_controller.dart';
 import 'package:firebase_demo/GetxTask/VideoTask/ReactiveStateManageMent/Screens/GetxBinding/binding_home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import '../../Controller/all_controller.dart';
 
 class GetXBindingScreen extends StatelessWidget {
@@ -29,7 +27,7 @@ class GetXBindingScreen extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                 Get.to(
-                  () => BindingHomeScreen(),
+                  () => const BindingHomeScreen(),
                 );
               },
               child: const Text("Obs 2"),
